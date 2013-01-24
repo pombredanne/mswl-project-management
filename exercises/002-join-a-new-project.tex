@@ -1,0 +1,87 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[parfill]{parskip}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabulary}
+\usepackage{float}
+\usepackage{eurosym}
+\usepackage{hyperref}
+\usepackage{fancyvrb}
+
+\graphicspath{{../images/}}
+
+\title{\textbf{Project Management}}
+\subtitle{How to join a new project}
+\author{Ricardo Garc\'ia Fern\'andez}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\vfill
+
+\begin{flushright}
+    \copyright  2013 Ricardo Garc\'ia Fern\'andez - ricardogarfe [at] gmail [dot] com.
+
+    This work is licensed under a Creative Commons Attribution- ShareAlike 3.0 License.
+    To view a copy of this license visit:
+ 
+    \url{http://creativecommons.org/licenses/by-sa/3.0/legalcode}.
+\end{flushright}
+
+\begin{figure}[h]
+    \begin{flushright}	
+        \includegraphics{by}
+        \label{fig:by-sa}
+    \end{flushright}
+\end{figure}
+
+\newpage
+
+\section{Questions}
+
+\emph{Let's assume that you are a developer interested in joining the Calligra project, an office suite in KDE. Answer the following questions:}
+
+\begin{enumerate}
+	\item Is it possible to browse the code tree of these project? What is the URL of this repository? What is the software for version control used in this project?
+	\item Can you find any specific guidelines for submitting your first patch to this project (or any other KDE project)?
+	\item What are the main developers of Calligra? Can you contact the developers somehow?
+\end{enumerate}
+
+\section{calligra-vcs}
+\label{sec:q-01}
+
+\emph{Is it possible to browse the code tree of these project? What is the URL of this repository? What is the software for version control used in this project?}
+
+\par Yes, we can browse Calligra code tree as we can see in Calligra \emph{Community documentation}\footnote{\url{http://community.kde.org/Calligra/Building\#Get_the_source_code_for_the_development_version}}. Calligra uses Git\footnote{\url{http://git-scm.com}} as VCS, so you have to configure Git to clone the repository inside KDE structure:
+
+Add the following text to your ~/.gitconfig:
+\begin{Verbatim}[frame=single]
+[url "git://anongit.kde.org/"]
+    insteadOf = kde:
+[url "ssh://git@git.kde.org/"]
+    pushInsteadOf = kde:
+\end{Verbatim}
+
+Then execute:
+\begin{Verbatim}[frame=single]
+ git clone kde:calligra
+\end{Verbatim}
+
+\section{patch-guidelines}
+\label{sec:q-02}
+
+\emph{Can you find any specific guidelines for submitting your first patch to this project (or any other KDE project)?}
+
+
+% section  (end)
+
+\section{section name}
+\label{sec:}
+
+
+\emph{What are the main developers of Calligra? Can you contact the developers somehow?}
+
+% section  (end)
+\end{document}
