@@ -1,6 +1,6 @@
 Creative Commons - Attribution 3.0 Unported (CC BY 3.0)
 
-This is a human-readable summary of the Legal Code [http://creativecommons.org/licenses/by/3.0/legalcode](the full license).
+This is a human-readable summary of the Legal Code ([the full license](http://creativecommons.org/licenses/by/3.0/legalcode)).
 
 You are free:
 
