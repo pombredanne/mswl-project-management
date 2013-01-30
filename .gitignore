@@ -34,3 +34,6 @@
 .texlipse
 bbdd-pedro/
 tmp/
+
+# Jekyl site configuration
+_site/
