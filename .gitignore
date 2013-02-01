@@ -6,9 +6,6 @@
 *.bak
 *.swp
 
-# Avoid Pdf files
-*.pdf
-
 # Output LaTeX presentation files
 *.nav
 *.out
@@ -32,8 +29,6 @@
 # Texlipse
 .project
 .texlipse
-bbdd-pedro/
-tmp/
 
 # Jekyl site configuration
 _site/
