@@ -21,7 +21,7 @@ Exercises writed using `LaTeX` and pdf out in published in `gh-pages/exercises b
 * Umbrella projects and communities: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/003-open-desktop-goals.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/gh-pages/exercises/003-open-desktop-goals.pdf). 
 * Discussions in open collaborative projects: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/004-notabilia-deleted-wikipedia-discussions.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/gh-pages/exercises/004-notabilia-deleted-wikipedia-discussions.pdf).
 * Bug reporting guidelines: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/005-webkit-bug-reporting-guidelines.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/gh-pages/exercises/005-webkit-bug-reporting-guidelines.pdf).
-* Hiring a community manager: [LaTeX] **TBC** & [pdf] **TBC**.
+* Hiring a community manager: _LaTeX_ **TBC** & _pdf_ **TBC**.
 
 Reports
 ========
