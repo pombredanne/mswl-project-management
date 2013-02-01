@@ -4,7 +4,7 @@ MSWL  Project Management
 Introduction
 =============
 
-Notes and Exercises for Project Management Subject coursed in [Master on Libre Software (Master Universitario en Software libre](http://master.libresoft.es/) at [Universidad Rey juan Carlos](http://www.urjc.es/).
+Notes and Exercises for Project Management Subject coursed in [Master on Libre Software (Master Universitario en Software libre)](http://master.libresoft.es/) at [Universidad Rey juan Carlos](http://www.urjc.es/).
 
 Requirements
 =============
@@ -14,13 +14,13 @@ Requirements
 Exercises
 ==========
 
-Exercises writed using `LaTeX` and pdf out in published in `gh-pages/exercises branch`
+Exercises writed using `LaTeX` and pdf out in published in `master/exercises`:
 
-* Technical infrastructure in KDE: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/001-KDE-technical-infrastructure.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/gh-pages/exercises/001-KDE-technical-infrastructure.pdf).
-* How to join a new project: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/002-join-a-new-project.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/gh-pages/exercises/002-join-a-new-project.pdf).
-* Umbrella projects and communities: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/003-open-desktop-goals.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/gh-pages/exercises/003-open-desktop-goals.pdf). 
-* Discussions in open collaborative projects: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/004-notabilia-deleted-wikipedia-discussions.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/gh-pages/exercises/004-notabilia-deleted-wikipedia-discussions.pdf).
-* Bug reporting guidelines: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/005-webkit-bug-reporting-guidelines.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/gh-pages/exercises/005-webkit-bug-reporting-guidelines.pdf).
+* Technical infrastructure in KDE: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/001-KDE-technical-infrastructure.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/master/exercises/001-KDE-technical-infrastructure.pdf).
+* How to join a new project: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/002-join-a-new-project.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/master/exercises/002-join-a-new-project.pdf).
+* Umbrella projects and communities: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/003-open-desktop-goals.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/master/exercises/003-open-desktop-goals.pdf). 
+* Discussions in open collaborative projects: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/004-notabilia-deleted-wikipedia-discussions.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/master/exercises/004-notabilia-deleted-wikipedia-discussions.pdf).
+* Bug reporting guidelines: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/005-webkit-bug-reporting-guidelines.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/master/exercises/005-webkit-bug-reporting-guidelines.pdf).
 * Hiring a community manager: _LaTeX_ **TBC** & _pdf_ **TBC**.
 
 Reports
