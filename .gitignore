@@ -1,8 +1,0 @@
-# Compiled files
-*.log
-*.aux
-*.out
-*~
-
-# Jekyll generated site directory
-_site/
