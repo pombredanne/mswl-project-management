@@ -35,6 +35,13 @@ Tools
 
 We use Github wiki and Gollum editor to create a collaborative notebook.
 
+Blog
+=====
+
+Blog posts for the subject in my personal blog with `mswl-project-management` tag.
+
+    http://mastersfwlurjc.blogspot.com.es/search/label/mswl-project-management
+
 Reports
 ========
 
