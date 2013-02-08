@@ -23,6 +23,25 @@ Exercises writed using `LaTeX` and pdf out in published in `master/exercises`:
 * Bug reporting guidelines: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/005-webkit-bug-reporting-guidelines.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/master/exercises/005-webkit-bug-reporting-guidelines.pdf).
 * Hiring a community manager: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/006-community-manager.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/master/exercises/006-community-manager.pdf).
 
+Collaborative Notebook
+=======================
+
+Created a collaborative notebook between classmates related to the subject.
+
+    http://mswl-2012-2013.github.com/mswl-project-management-notebook/
+
+Tools
+------
+
+We use Github wiki and Gollum editor to create a collaborative notebook.
+
+Blog
+=====
+
+Blog posts for the subject in my personal blog with `mswl-project-management` tag.
+
+    http://mastersfwlurjc.blogspot.com.es/search/label/mswl-project-management
+
 Reports
 ========
 
@@ -33,5 +52,4 @@ License
 
 <a href="http://creativecommons.org/licenses/by/3.0/" rel="Creative Commons Attribution 3.0">![Foo](http://i.creativecommons.org/l/by/3.0/88x31.png)</a>
 
-This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
-
+This work by Ricardo Gracía Fernández - ricardogarfe [at] gmail [dot] com is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
