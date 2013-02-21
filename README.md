@@ -30,6 +30,16 @@ Created a collaborative notebook between classmates related to the subject.
 
     http://mswl-2012-2013.github.com/mswl-project-management-notebook/
 
+The subject notes are in wiki format.
+
+    https://github.com/mswl-2012-2013/mswl-project-management-notebook/wiki
+
+We organized our work using github issues for creating summaries and revisions for lessons:
+
+    https://github.com/mswl-2012-2013/mswl-project-management-notebook/issues
+
+See README file for more info.
+
 Tools
 ------
 
