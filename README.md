@@ -45,7 +45,30 @@ Blog posts for the subject in my personal blog with `mswl-project-management` ta
 Reports
 ========
 
-% TBC
+Presentation of a Software Forge
+---------------------------------
+
+The study of Bitbucket as a Software Forge and a Brief comparison with other Software Forges
+
+* [Bitbucket project](https://bitbucket.org/mswlmanage2013/mswl-bitbucket-alm-tools/) - See `README` file. The report is a slides presentation.
+* [Bitbucket Wiki](https://bitbucket.org/mswlmanage2013/mswl-bitbucket-alm-tools/wiki/Home) - All retrieved info from the group to crete the slides.
+* [Bitbucket Issues](https://bitbucket.org/mswlmanage2013/mswl-bitbucket-alm-tools/issues).
+
+`The project has been developed by three people`:
+
+* @ilias_r
+* @gamezdaniel
+* @ricardogarfe
+
+Final Report 
+-------------
+
+`Release of a FLOSS product by a SME`. 
+
+* [Document in LaTeX format](https://github.com/ricardogarfe/mswl-project-management/blob/master/final-reports/001-final-report-floss-release.tex)
+* [Pdf result of the Report](https://github.com/ricardogarfe/mswl-project-management/blob/master/final-reports/001-final-report-floss-release.pdf). **TBC**.
+
+**TBC**
 
 License
 ========
