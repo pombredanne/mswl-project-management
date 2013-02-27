@@ -211,6 +211,24 @@
 \subsection{Where will be published the code ?}
 \label{sub:publish-code}
 
+\par First is not where, first is, which SVC - \emph{System Version Control} - will be used ?
+
+\par We choose a DVC - \emph{Distributed Version Control} - System instead of an CVC\emph{Centralized Version Control} System. A \emph{DVC} increases the capabilities to developers (including community contributors) to develop solutions and test their development in every environment. The main reason is that a \emph{DVC} gives you the opportunity to work without being connected to internet and save all your historical revisions. The other reason is that applying \emph{DVC} Systems (mainstream) workflow Branch per Feature from Martin Fowler analysis\cite{branch-per-feature} and how to fit with Continuous Integration Development, increases the productivity and facilitates the integration of new developments minimizing the problems with merging in \emph{CVC}s. Thinking about publishing a project as FLOSS with the idea of creating a solid and integrate community we must use a \emph{DVC}.
+
+\par The are different \emph{DVC}s to choose:
+\begin{itemize}
+    \item Monotone - \url{http://www.monotone.ca/}. monotone is a free distributed version control system. It provides a simple, single-file transactional version store, with fully disconnected operation and an efficient peer-to-peer synchronization protocol. \emph{Introduced hash commits}.
+	\item GNU Arch - \url{}. It is used to keep track of the changes made to a source tree and to help programmers combine and otherwise manipulate changes made by multiple people or at different times.
+	\item Bazaar - \url{http://bazaar.canonical.com/en/}. Bazaar is a version control system that helps you track project history over time and to collaborate easily with others. \emph{GNU Arch fork}.
+	\item Darcs - \url{http://darcs.net/}. Darcs is a free and open source, cross-platform version control system, like git, mercurial or subversion but with a very different approach. Thanks to its focus on changes rather than snapshots, Darcs can offer a freer way of working, and a simpler user interface. It's written in \emph{haskell}.
+	\item Git - \url{http://git-scm.com/}. Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+	\item Mercurial - \url{http://mercurial.selenic.com/}. Mercurial is a free, distributed source control management tool. It efficiently handles projects of any size and offers an easy and intuitive. 
+\end{itemize}
+
+\par After a deep analysis for choose one \emph{DVCs}. We decided to use Git. Our decision is based in the facility to propagate through internet, most development forges allow and promote the use of Git instead of others, this could be a hype but a hype that works because if this system has not a good \emph{interoperability} APIs and easy hooks configurations will be replaced easily. And was born from Linus Torvalds after BitKeeper affair with taxes and its 'special' license clause\footnote{\url{http://kerneltrap.org/node/444}} to manage Linux kernel source.
+
+\par After choosing Git we must decide where. We decided to host our Git Repository in Github - \url{https://github.com/} - Projects and community in Github have a lot of visibility and i uses a clean user-friendly interface furthermore is a Git powered forge that allows an easy implementation of hooks to our repositories. Why is this important to us ? Because our project is a code analyzer where could be better hosted to be tested than in an easily interoperability configurable forge that spread hook integration. I think this forge increases the visualization to your work, organization capabilities and community communication, the most important issue.
+
 % subsection publish-code (end)
 
 \subsection{Communication strategy and channels}
@@ -296,6 +314,11 @@
     Brian Behlendorf,\\
     Open Source as a Business Strategy,\\
     http://oreilly.com/openbook/opensources/book/brian.html
+    
+    \bibitem{branch-per-feature}
+    Martin Fowler,\\
+    FeatureBranch,\\
+    http://martinfowler.com/bliki/FeatureBranch.html
 \end{thebibliography}
 
 \end{document}
