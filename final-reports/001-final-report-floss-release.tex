@@ -142,13 +142,13 @@
 \subsection{Code climate}
 \label{sub:code-climate}
 
-\textbf{Code climate} - \url{https://codeclimate.com/}. Code quality analysis in Ruby Language. But we will not focus on language but with what gives us the tool.
+\textbf{Code climate} - \url{https://codeclimate.com/}. Code quality analysis in Ruby Language. But we will not focus on language but with what gives us the tool\ref{code-climate}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{code-climate.png}
 \caption{Code Climate Notifications}
-\label{}
+\label{code-climate}
 \end{figure}
 
 \par This tool gives us interoperability with Software Forges like Github integration. Source Code Management with Git repositories, Code Quality evolution, Notifications, Comparison tools. This tool set is simple but efficient, this is very important. Play with the ease of integration into a forge development offering hosting server, pay and enjoy the product (one click purchase).
@@ -170,7 +170,7 @@
     \emph{Put your technical debt under control}
 \end{quote}
 
-\par Despite Code Climate, Sonar covers lots of languages and is a FLOSS product. A very good point to consider for the use of this software. Controls and test every corner of your project.
+\par Despite Code Climate, Sonar covers lots of languages and is a FLOSS product. A very good point to consider for the use of this software. Controls and test every corner of your project\ref{sonar7axes}.
 
 \begin{figure}[H]
 \centering
@@ -179,13 +179,13 @@
 \label{sonar7axes}
 \end{figure}
 
-\par This Software gives you the opportunity to integrate with your Source code management and a result metrics result visualization panel with Nemo - \url{http://nemo.sonarsource.org/} using Saas solution through \emph{Cloud Bees} - \url{http://www.cloudbees.com/platform-service-sonarsource.cb}.
+\par This Software gives you the opportunity to integrate with your Source code management and a result metrics result visualization panel with Nemo\ref{nemo-evolution} - \url{http://nemo.sonarsource.org/} using Saas solution through \emph{Cloud Bees} - \url{http://www.cloudbees.com/platform-service-sonarsource.cb}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{nemo-evolution.png}
-\caption{}
-\label{}
+\caption{Nemo evolution graph}
+\label{nemo-evolution}
 \end{figure}
 
 \par Sonar is focused in code Analysis its market niche as Code Climate but offering easy configurable solutions for integrate your projects with giving you the possibility to analyze our software and visualize the results among time.
@@ -198,16 +198,14 @@
 \section{Management general path}
 \label{sec:management-path}
 
-\par services and personal.
-
-% section management-path (end)
-
-\section{Management Policies}
-\label{sec:management-policies}
+\par services and personal. Social and political organization of the project/community.
 
 \par Communities, Enterprise ROLE, Single Vendor or Apache Software Foundation.
 
-% section management-policies (end)
+% section management-path (end)
+\section{Management Policies}
+\label{sec:management-policies}
+
 \subsection{Where will be published the code ?}
 \label{sub:publish-code}
 
@@ -227,7 +225,16 @@
 
 \par After a deep analysis for choose one \emph{DVCs}. We decided to use Git. Our decision is based in the facility to propagate through internet, most development forges allow and promote the use of Git instead of others, this could be a hype but a hype that works because if this system has not a good \emph{interoperability} APIs and easy hooks configurations will be replaced easily. And was born from Linus Torvalds after BitKeeper affair with taxes and its 'special' license clause\footnote{\url{http://kerneltrap.org/node/444}} to manage Linux kernel source.
 
-\par After choosing Git we must decide where. We decided to host our Git Repository in Github - \url{https://github.com/} - Projects and community in Github have a lot of visibility and i uses a clean user-friendly interface furthermore is a Git powered forge that allows an easy implementation of hooks to our repositories. Why is this important to us ? Because our project is a code analyzer where could be better hosted to be tested than in an easily interoperability configurable forge that spread hook integration. I think this forge increases the visualization to your work, organization capabilities and community communication, the most important issue.
+\par After choosing Git we must decide where. We decided to host our Git Repository in Github - \url{https://github.com/} - Projects and community in Github have a lot of visibility and uses a clean user-friendly interface furthermore is a Git powered forge that allows an easy implementation of hooks to our repositories. Why is this important to us ? Because our project is a code analyzer, where could be better hosted to be tested than in an easily interoperability configurable forge that spread hook integration? I think this forge increases the visualization to our work, organization capabilities and community communication, the most important issue. 
+
+\par GitHub has an easy patch/merging/pull-request tool to merge work from contributors, using code visualization, comments in commits and patch visualization. It's very easy to apply a contribution. Furthermore gives to the project set of quick analysis graphs from contributors commit activities\ref{github-graphs} and branch history, these analysis are a key feature to gain visibility for the community.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{github-graphs.png}
+\caption{GitHub contributors graphs}
+\label{github-graphs}
+\end{figure}
 
 % subsection publish-code (end)
 
@@ -290,6 +297,12 @@
 
 \par If you are looking for IRC channel, you won't find it. We started this section referring us to the appointment of Jono Bacon \emph{"the notes you do not play"} therefore we decided not to create an IRC Channel for the community because we can't manage it whit our resources. Ff the community will want one we will be happy and could try to afford this cost in the future.
 
+\par I want to include a reference to Issue Tracker System (ITS) in this section as a \emph{highway} and \emph{encouraged driving} element. The \emph{ITS} is important in a community, in our case a technical community not focused in an end-user. We include an \emph{ITS} to manage the project in the community, communications, RFC - \emph{Request For Comments}, Doodles, discussions, documentation, references and of course \emph{Netiquette} related to how to use an \emph{ITS} which is explained widely in Technology Section\ref{sec:technology}.
+
+\par This tool is the jump for the user after the \emph{Forums} and \emph{Mailing Lists} to contribute to the development aimed by the members of the community. Following Netiquette guidelines to post a bug into the \emph{ITS} and stay tuned with issue updates, test the patches and help developers to fix any bug.
+
+\par Because of is another communication channel with development team I chose to reference the \emph{ITS} inside this section.
+
 % subsection communication-strategy (end)
 
 \subsection{Managing volunteers and attracting new users}
@@ -297,6 +310,7 @@
 
 % subsection volunteers-users (end)
 
+% section management-policies (end)
 \section{Technology}
 \label{sec:technology}
 
