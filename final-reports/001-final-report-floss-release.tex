@@ -59,7 +59,7 @@
     \end{center}
 \end{quote}
 
-\par Representation of technical debt amount in a project\ref{tech-debt-costs} using metrics. Increasing productivity fighting against the technical debt of a project easily.
+\par Representation of technical debt amount in a project using metrics in Figure~\ref{tech-debt-costs}. Increasing productivity fighting against the technical debt of a project easily.
 
 \begin{figure}[H]
 \centering
@@ -151,7 +151,7 @@
 \subsection{Code climate}
 \label{sub:code-climate}
 
-\textbf{Code climate} - \url{https://codeclimate.com/}. Code quality analysis in Ruby Language. But we will not focus on language but with what gives us the tool\ref{code-climate}.
+\textbf{Code climate} - \url{https://codeclimate.com/}. Code quality analysis in Ruby Language. But we will not focus on language but with what gives us the tool in Figure~\ref{code-climate}.
 
 \begin{figure}[H]
 \centering
@@ -179,7 +179,7 @@
     \emph{Put your technical debt under control}
 \end{quote}
 
-\par Despite Code Climate, Sonar covers lots of languages and is a FLOSS product. A very good point to consider for the use of this software. Controls and test every corner of your project\ref{sonar7axes}.
+\par Despite Code Climate, Sonar covers lots of languages and is a FLOSS product. A very good point to consider for the use of this software. Controls and test every corner of your project in Figure~\ref{sonar7axes}.
 
 \begin{figure}[H]
 \centering
@@ -188,7 +188,7 @@
 \label{sonar7axes}
 \end{figure}
 
-\par This Software gives you the opportunity to integrate with your Source code management and a result metrics result visualization panel with Nemo\ref{nemo-evolution} - \url{http://nemo.sonarsource.org/} using Saas solution through \emph{Cloud Bees} - \url{http://www.cloudbees.com/platform-service-sonarsource.cb}.
+\par This Software gives you the opportunity to integrate with your Source code management and a result metrics result visualization panel with Nemo (in Figure~\ref{nemo-evolution}) - \url{http://nemo.sonarsource.org/} using Saas solution through \emph{Cloud Bees} - \url{http://www.cloudbees.com/platform-service-sonarsource.cb}.
 
 \begin{figure}[H]
 \centering
@@ -241,12 +241,12 @@
 
 \par This person is charge of project development as a project manager in an \emph{Enterprise Language} but more open minded to their community members. Is the \emph{'creator'} of the project and deserves a higher degree of credibility on issues directly related to the project.
 
-\par We need one, but we don't want one for the eternity because our goal here is that the community manages the project and grows horizontally. Kill your idols\ref{kill-your-idols}, be yourself that's the goal here.
+\par We need one, but we don't want one for the eternity because our goal here is that the community manages the project and grows horizontally. \emph{Kill your idols, be yourself} that's the goal here.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{killyouridols.jpg}
-\caption{Kill Your Idols}
+\caption{Ecce Homo - Kill Your Idols}
 \label{kill-your-idols}
 \end{figure}
 
@@ -266,7 +266,7 @@
 \subsection{Social and political organization}
 \label{sub:social-political}
 
-\par The social and political organization of the project has to be horizontal. Decisions have to be complete through the transparency and the participation of members of the community.
+\par The social and political organization of the project must be horizontal. Decisions have to be complete through the transparency and the participation of members of the community.
 
 \par We are going to use Apache Software Foundation ways of decision making\footnote{\url{http://community.apache.org/committers/decisionMaking.html}} verbatim:
 
@@ -304,6 +304,8 @@
 \section{Management Policies}
 \label{sec:management-policies}
 
+\par Linking with the previous section \emph{Social and political} organization now we are focused in management, how to and which channels are necessary to develop these organization management applying strategies.
+
 \subsection{Where will be published the code ?}
 \label{sub:publish-code}
 
@@ -325,7 +327,7 @@
 
 \par After choosing Git we must decide where. We decided to host our Git Repository in Github - \url{https://github.com/} - Projects and community in Github have a lot of visibility and uses a clean user-friendly interface furthermore is a Git powered forge that allows an easy implementation of hooks to our repositories. Why is this important to us ? Because our project is a code analyzer, where could be better hosted to be tested than in an easily interoperability configurable forge that spread hook integration? I think this forge increases the visualization to our work, organization capabilities and community communication, the most important issue. 
 
-\par GitHub has an easy patch/merging/pull-request tool to merge work from contributors, using code visualization, comments in commits and patch visualization. It's very easy to apply a contribution. Furthermore gives to the project set of quick analysis graphs from contributors commit activities\ref{github-graphs} and branch history, these analysis are a key feature to gain visibility for the community.
+\par GitHub has an easy patch/merging/pull-request tool to merge work from contributors, using code visualization, comments in commits and patch visualization. It's very easy to apply a contribution. Furthermore gives to the project set of quick analysis graphs from contributors commit activities and branch history, these analysis are a key feature to gain visibility for the community in Figure~\ref{github-graphs}.
 
 \begin{figure}[H]
 \centering
@@ -405,6 +407,65 @@
 
 \subsection{Managing volunteers and attracting new users}
 \label{sub:volunteers-users}
+
+\par \emph{Managing volunteers and attracting new users} is \textbf{the million dollar question}. How do I attract new users ? and more difficult; How should I do to manage volunteers? How should I do to avoid losing them?
+
+\par Our project is based on the excellence of the code, the fight against technical debt that always creeps into projects. On this basis, every developer wants to develop good projects. Based on studies of refactoring and code quality from the book Refactoring by Martin Fowler\cite{refactoring}, somehow we want to teach and develop better code using this tool. Furthermore the easy result visualization of the results and evolution of the code. The tools to \emph{increase and spread} visualization of the results and \emph{how to} are explained in Technology section\ref{sec:technology} to attract new users.
+
+\par This attract every developer and company that want to work better easily. This is the technical hook.
+
+\par But we have to focus to the community hook and how to keep volunteers inside the project.
+
+\subsubsection{Managing volunteers}
+\label{sub:volunteers-management}
+
+\par \emph{We want users} because the users could \textbf{become contributors}, so this door is the first step to create a community. Following the \emph{Onion Model} in Figure~\ref{onion-model} defined by \emph{Kevin Crowston} and \emph{James Howison}\cite{social-structure-floss} after studying \emph{120 FLOSS projects} looking for a community pattern in communication centralization, they found the onion model structure.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{onionstructure.png}
+    \caption{Onion model}
+    \label{onion-model}
+\end{figure}
+
+\par From \emph{passive users} that are in the corner of project through \emph{active users} that could become \emph{co-developers} or not. And finally \emph{core developers}. Furthermore we must comprise the role jumps that can occur between the different strata of the community that was explained by \emph{Jennifer Preece, Ben Shneiderman} communities study\cite{preece2009reader} represented in Figure~\ref{reader-to-leader}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{reader-to-leader.jpg}
+    \caption{Reader to Leader}
+    \label{reader-to-leader}
+\end{figure}
+
+\par These Volunteers workflow inside communities depends on the community, so we want to give opportunities to new users with easy feedback from the community and vice versa. Know how are they, why they want to contribute, but not directly, nobody answers to a question directly without knowing nothing about the other people. We need to create a trustful circle, not about trust epic trust, a circle open to collaboration giving confidence to self-organization inside the community. Participate by him/herself.
+
+\par Promoting the users into different levels in the project to share a complete view of the community. The ROLES could and should change. \emph{Pro active community core creates pro active community members}.
+
+\par Remembering volunteer management, we again seek help at work, offering work to the community users to collaborate on the project and receive financial remuneration. Working as a community to benefit from it. In the first instance you will get the benefit per individual, we will explain how to scale these revenues this in the future into the community.
+
+\par And of course, this community badges by meritocracy\footnote{Oxford Dictionary: Government or the holding of power by people selected according to merit} have to be obtained from data. This has been explained in technology section\ref{sec:technology} tool by tool.
+
+% subsubsection volunteers-management (end)
+
+\subsubsection{Attracting new users}
+\label{sub:new-users}
+
+\par We need to publish a consistent and solid project to the community. To create this state of art we need:
+
+\begin{itemize}
+	\item Documentation - Developer (API). 
+	\item Community guides - How to enrol the community and Mentoring program.
+	\item Hello World - \emph{hello world} Development.
+	\item Tutorials - Build from source and interoperability.
+	\item Real samples - Success cases in real companies, clients and of course our company.
+	\item Turn numbers into Graphics - Use the numbers, the transparency and turn them into something nice.
+\end{itemize}
+
+\par Need a good welcome first impression. We must know that we created \emph{GreenHouse}, the dedication and the \emph{"love"} that we have to the project is not in the same level for every one, because of that we have to think as a person that doesn't have anything in common with the project, kind of a stranger that appears in front of our house door. We don't know anything about the volunteer, we have to be more open than ever and not to feel depressed if he never comes back.
+
+\par Mentoring programs are the best way to create new active users in community. The project consistent group of items helps to get a mentoring program, in this case related to code contributors and its role in the community. Following the main goals in Wikipedia \emph{Tea house}\footnote{\url{http://en.wikipedia.org/wiki/Wikipedia:Teahouse}} mentoring project, that helps new editors and facilitate how to edit using guides with the support of an expertise editor. This is our goal, create a user-to-user mentoring program but our first step is \textbf{have a working documentation}.
+
+% subsubsection new-users (end)
 
 % subsection volunteers-users (end)
 
@@ -492,6 +553,21 @@
     Jono Bacon,\\
     The Art of Community,\\
     http://www.artofcommunityonline.org/
+    
+    \bibitem{refactoring}
+    Martin Fowler,\\
+    Refactoring,\\
+    http://martinfowler.com/books/refactoring.html
+
+    \bibitem{social-structure-floss}
+    The social structure of Free and Open Source software development by Kevin Crowston and James Howison,\\
+    First Monday, Volume 10, Number 2 - 7 February 2005,\\
+    http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/rt/printerFriendly/1207/1127
+    
+    \bibitem{preece2009reader}
+    The reader-to-leader framework: Motivating technology-mediated social participation,\\
+    Jennifer Preece, Ben Shneiderman - 2009,\\
+    http://www.cs.umd.edu/~ben/papers/Jennifer2009Reader.pdf
 \end{thebibliography}
 
 \end{document}
