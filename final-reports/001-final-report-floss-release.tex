@@ -273,7 +273,7 @@
 \begin{itemize}
 	\item \emph{Lazy Consensus} - Lazy consensus is the first, and possibly the most important, consensus building tool we have. Essentially lazy consensus means that you don't need to get explicit approval to proceed, but you need to be prepared to listen if someone objects.
 
-	\item \emph{Consensus Building} - Sometimes lazy consensus is not appropriate. In such cases it is necessary to make a proposal to the mailing list and discuss options. There are mechanisms for quickly showing your support or otherwise for a proposal and building consensus amongst the community. Once there is a consensus people can proceed with the work under the lazy consensus model.
+	\item \emph{Consensus Building} - Sometimes lazy consensus is not appropriate. In such cases it is necessary to make a proposal to the Mailing List and discuss options. There are mechanisms for quickly showing your support or otherwise for a proposal and building consensus amongst the community. Once there is a consensus people can proceed with the work under the lazy consensus model.
 
 	\item \emph{Voting} - Occasionally a \emph{"feel"} for consensus is not enough. Sometimes we need to have a measurable consensus. For example, when voting in new committers or to approve a release.
 \end{itemize}
@@ -352,14 +352,14 @@
 
 \par Therefore, we will divide the process into two phases. Using the analogy of the roads and driving through them we have:
 \begin{itemize}
-	\item Create the highways - Channels: such as mailing lists, forums, and discussion channels.
+	\item Create the highways - Channels: such as Mailing lists, forums, and discussion channels.
     \item Encourage great driving - Strategy: providing a consistent example of simple approaches to communication that make the community easier to understand and more pleasurable for everyone involved)
 \end{itemize}
 
 \par Thinking about our project, \emph{Greenhouse} is a technical project for technical users. This is the first step to choose an appropriate channel. We have developers in our company and first users (that could became developers) thus we want to separate the communication between two channels:
 
 \begin{itemize}
-	\item Mailing lists: Create different mailing lists for each type of subscriber: developer, user. 
+	\item Mailing lists: Create different Mailing lists for each type of subscriber: developer, user. 
 	\item Forums: Forum to get an easy human enter door to the project for a newbie developer and not expecting to be the main communication channel.
 \end{itemize}
 
@@ -473,21 +473,42 @@
 \section{Technology}
 \label{sec:technology}
 
-\par Commodity.
+\par \emph{Commodity}, around this word, has to turn the choice of technologies for development and communication in the community. Get in touch with the community, spread and development using clear and simple steps. The concept that surrounds this commodity is \emph{Application lifecycle management} tools.
 
-% section technology (end)
+\begin{quotation}
+    \emph{"The continuous process of managing the life of an application through governance, development and maintenance."}
+\end{quotation}
 
 \subsection{Technical Infrastructure needed}
 \label{sub:infrastructure}
 
-\par Rationality, critical analysis, Development plan (good practices for source code development) and roadmap.
+\par Technical Infrastructure and good practices for source code development for \emph{GreenHouse} community have to be easy: to use, to retrieve information, give feedback, be visible and easy to broadcast. And work, of course \emph{has to work}.
+
+\par Using the argument from \emph{Jono Bacon} related to communication in community with \emph{"the notes you do not play"} and \emph{KISS principle} (Keep It Simple, Stupid!\cite{kiss}) we have to choose simple Infrastructure tools for the project, \emph{we don't have to reinvent the wheel}\footnote{Reinventing the wheel - \url{http://en.wikipedia.org/wiki/Reinventing_the_wheel}}.
+
+\begin{itemize}
+	\item Methodology: \emph{Test Driven Development} - TDD. \emph{"If it isn’t tested then it doesn’t work"}. This Agile methodology is perfect to ensure, track, improve and refactor code development process. % TODO image
+	\item Issue \& Project Tracking System - JIRA\footnote{JIRA - \url{http://www.atlassian.com/software/jira/overview}}. JIRA is ITS that records and manage a big amount of information in a project. Is composed by the ITS, Roadmap, Issues Reports, Development Addons, Interoperability between SCM, Discussion, Voting, Changelogs, HowTos, Wikis, Continuous Integration, Developers profiles, ROLES. % TODO image
+	\item DVCS: GitHub\footnote{\url{https://github.com}} and \emph{Branch per Feature Development}\cite{branch-per-feature}. % TODO image
+	\item Continuous Integration: \emph{Travis-CI}\footnote{\url{https://travis-ci.org/}}. Travis-CI gives us easy visibility of project builds and integration as a FLOSS project with GitHub. Travis integration and easy continuous builds results in GitHub Main page and Development Mailing list connection. This Continuous Integration gives more transparency to the project and shows all the process just using the Repository source. % TODO image
+	\item Code Quality: \emph{GreenHouse}. Our project has to be used and integrated with development in a real case to spread with the example.
+	\item Forum: StackOverflow\footnote{StackOverflow - \url{http://stackoverflow.com/}} as our forum. Thus, developers don't have to get another registered user in another network and they are used to StackOverflow environment. We define the tag \emph{greenhouse} and publish documentation related to the project. This network helps us to view users and developers status, badges and statistics.
+	\item Mailing List: Development and general. Two Mailing lists for the project could be necessary as another \emph{"highway"}. ITS acts as Mailing lists too because everyone could subscribe to a bug or feature, vote and discuss. % TODO image
+	\item Repository of Repositories (\emph{RoR}): To spread the work we need to use the facilities that are online for FLOSS projects. RoR is a Tool to generate public statistics from a repository. We choose \emph{ohloh.net}\footnote{ohloh.net - \url{http://www.ohloh.net/}} from \emph{BlackDuck Software}\footnote{BlackDuck Software - \url{http://www.blackducksoftware.com/}} - \emph{Software and Consulting at the Heart of Open Source}. % TODO image
+	 \item Blog - Create a community blog with success cases, developers presentations, company projects, partners and personal blog posts from community members, thus we can create a brand for the community not only code. Include references from other technologies and analysis. % TODO image
+	 \item Social Network - Technological Social Networks as identi.ca\footnote{Identi.ca - \url{http://identi.ca/}} and \emph{Twitter}\footnote{Twitter - \url{https://twitter.com/}}. Create a user group to get in touch with users and spread news, community blogs, new versions, roadmap. Instant connection to users and other FLOSS communities around the world, you only need an internet connection and a terminal to use these microblogging sites. % TODO image
+\end{itemize}
 
 % subsection infrastructure (end)
+
+% section technology (end)
 
 \section{Business scalability}
 \label{sec:scalability}
 
 \par Metasploit and MySQL.
+
+\par Our business goal publishing this project as Dual-License is to be expertise as Technical Debt fighters spreading our success with the community and giving to community the chance to earn money.
 
 % section scalability (end)
 
@@ -498,12 +519,17 @@
 
 \par At least but not last important point for social-political is that the community has to be heterogeneous.
 
+\par Convert into a foundation to manage possible incoming revenues. Cover legally \emph{Code Garden} and community volunteers.
+
 % subsection evolution (end)
 
 \subsection{Emphasis}
 \label{sub:emphasis}
 
 \par Integration, Upstream.
+
+\par Development new interoperability functions in community.
+\par Development free courses for bug fixing party to retrieve upstream.
 
 % subsection emphasis (end)
 
@@ -572,6 +598,11 @@
     The reader-to-leader framework: Motivating technology-mediated social participation,\\
     Jennifer Preece, Ben Shneiderman - 2009,\\
     http://www.cs.umd.edu/~ben/papers/Jennifer2009Reader.pdf
+
+    \bibitem{kiss}
+    The KISS principle,\\
+    Filip Hanik,\\
+    http://people.apache.org/~fhanik/kiss.html
     
     \bibitem{cath-bazaar}
     The Cathedral and the Bazaar,\\
