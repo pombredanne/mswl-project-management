@@ -1,25 +1,21 @@
 MSWL  Project Management
 =========================
 
-Introduction
-=============
+## Introduction
 
 Notes and Exercises for Project Management Subject coursed in [Master on Libre Software (Master Universitario en Software libre)](http://master.libresoft.es/) at [Universidad Rey juan Carlos](http://www.urjc.es/).
 
-Requirements
-=============
+## Requirements
 
 * LaTeX: to compile source code documentation files.
 * [pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX): Convert pdf to html files by [@coolwanglu](https://github.com/coolwanglu)
-'''shell
-sudo add-apt-repository ppa:coolwanglu/pdf2htmlex
-sudo apt-get update
-sudo apt-get install pdf2htmlEX
-pdf2htmlEX 001-final-report-floss-release.pdf
-'''
 
-Exercises
-==========
+    $ sudo add-apt-repository ppa:coolwanglu/pdf2htmlex
+    $ sudo apt-get update
+    $ sudo apt-get install pdf2htmlEX
+    $ pdf2htmlEX 001-final-report-floss-release.pdf
+
+## Exercises
 
 Exercises writed using `LaTeX` and pdf out in published in `master/exercises`:
 
@@ -30,8 +26,7 @@ Exercises writed using `LaTeX` and pdf out in published in `master/exercises`:
 * Bug reporting guidelines: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/005-webkit-bug-reporting-guidelines.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/master/exercises/005-webkit-bug-reporting-guidelines.pdf).
 * Hiring a community manager: [LaTeX](https://github.com/ricardogarfe/mswl-project-management/blob/master/exercises/006-community-manager.tex) & [pdf](https://github.com/ricardogarfe/mswl-project-management/raw/master/exercises/006-community-manager.pdf).
 
-Collaborative Notebook
-=======================
+## Collaborative Notebook
 
 Created a collaborative notebook between classmates related to the subject.
 
@@ -47,23 +42,19 @@ We organized our work using github issues for creating summaries and revisions f
 
 See README file for more info.
 
-Tools
-------
+### Tools
 
 We use Github wiki and Gollum editor to create a collaborative notebook.
 
-Blog
-=====
+## Blog
 
 Blog posts for the subject in my personal blog with `mswl-project-management` tag.
 
     http://mastersfwlurjc.blogspot.com.es/search/label/mswl-project-management
 
-Reports
-========
+## Reports
 
-Presentation of a Software Forge
----------------------------------
+### Presentation of a Software Forge
 
 The study of Bitbucket as a Software Forge and a Brief comparison with other Software Forges
 
@@ -77,8 +68,7 @@ The study of Bitbucket as a Software Forge and a Brief comparison with other Sof
 * @gamezdaniel
 * @ricardogarfe
 
-Final Report 
--------------
+### Final Report 
 
 `Release of a FLOSS product by a SME`. 
 
@@ -87,8 +77,7 @@ Final Report
 
 **TBC**
 
-License
-========
+## License
 
 <a href="http://creativecommons.org/licenses/by/3.0/" rel="Creative Commons Attribution 3.0">![Foo](http://i.creativecommons.org/l/by/3.0/88x31.png)</a>
 
