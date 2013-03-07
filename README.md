@@ -10,6 +10,13 @@ Requirements
 =============
 
 * LaTeX: to compile source code documentation files.
+* [pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX): Convert pdf to html files by [@coolwanglu](https://github.com/coolwanglu)
+'''shell
+sudo add-apt-repository ppa:coolwanglu/pdf2htmlex
+sudo apt-get update
+sudo apt-get install pdf2htmlEX
+pdf2htmlEX 001-final-report-floss-release.pdf
+'''
 
 Exercises
 ==========
@@ -64,7 +71,7 @@ The study of Bitbucket as a Software Forge and a Brief comparison with other Sof
 * [Bitbucket Wiki](https://bitbucket.org/mswlmanage2013/mswl-bitbucket-alm-tools/wiki/Home) - All retrieved info from the group to crete the slides.
 * [Bitbucket Issues](https://bitbucket.org/mswlmanage2013/mswl-bitbucket-alm-tools/issues).
 
-`The project has been developed by three people`:
+`The project has been developed by`:
 
 * @ilias_r
 * @gamezdaniel
