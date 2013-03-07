@@ -8,7 +8,9 @@ Notes and Exercises for Project Management Subject coursed in [Master on Libre S
 ## Requirements
 
 * LaTeX: to compile source code documentation files.
-* [pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX): Convert pdf to html files by [@coolwanglu](https://github.com/coolwanglu)
+* [pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX): Convert pdf to html files by [@coolwanglu](https://github.com/coolwanglu).
+
+### pdf2htmlEX Installation
 
     $ sudo add-apt-repository ppa:coolwanglu/pdf2htmlex
     $ sudo apt-get update
