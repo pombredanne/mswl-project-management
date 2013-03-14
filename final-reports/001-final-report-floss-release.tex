@@ -125,13 +125,14 @@
 \begin{itemize}
 	\item The usability of the product.
 	\item Tangible incentives as our case the money.
+	\item 'Intangible' incentives: community badges Gamifying Community\cite{gamifying}.
 \end{itemize}
 
 \par In this way we will try to solve the dilemma of FLOSS developments that can be converted into proprietary solutions.
 
 \par Therefor, an exchange of knowledge by salaries to the community through an assignment of copyright to Code Garden by using the \emph{GPLv3 License}, they maintain the authoring and earn tangible rewards too.
 
-\par We are the copyright holders of \emph{Greenhouse} and thus , we want to share the maintenability with community knowledge to provide solutions for companies with private Licenses of the product.
+\par We are the copyright holders of \emph{Greenhouse} and thus , we want to share the sustainability with community knowledge to provide solutions for companies with private Licenses of the product.
 
 \par We want to evolve with the community and spread our developments and remain FLOSS.
 
@@ -469,6 +470,34 @@
 
 % subsection volunteers-users (end)
 
+\subsubsection{Gamifying Community}
+\label{sub:gamifying-community}
+
+\emph{Gamifying} ? is the second time this word appears in the text. This concept is defined as the process of awarding badges, achievements, incentives in this case in a FLOSS community. This is to create a positive reinforcement for a community where users interact within it. A visible response and comparable with the other members of the community to encourage competition and participation through badges.
+
+Quoting Richard Sands sample of \emph{Nike+ community}:
+
+\begin{quotation}
+    \begin{center}
+        \emph{"Services like Nike + have proven health and exercise gamifying That can create strong incentives behaviors, make a healthy lifestyle more fun, and Improve players' well-being."}
+    \end{center}
+\end{quotation}
+
+\par And the working example in software development environment is \emph{codecademy}\footnote{Codecademy learn to code - \url{http://www.codecademy.com/}}. On its website encourage users to continue with programming courses and compare their achievements and future challenges with the rest of the community.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{codecademy-gamifying.png}
+    \caption{CodeCademy public user profile}
+    \label{codecademy-profile}
+\end{figure}
+
+\par This positive feedback with users they introduce software development as funny as a game, increasing levels, winning prices and achievements interacting with community. You don't have to be the best community member, personal success increase with your own participation, thus \emph{participate in the community is their goal and ours}.
+
+\par Our goal is to attract and maintain active users: create a \textbf{gamifying community} introducing users to a \emph{more fun community} \textbf{as our mean}.
+
+% subsection gamifying-community (end)
+
 % section management-policies (end)
 \section{Technology}
 \label{sec:technology}
@@ -487,22 +516,22 @@
 \par Using the argument from \emph{Jono Bacon} related to communication in community with \emph{"the notes you do not play"} and \emph{KISS principle} (Keep It Simple, Stupid!\cite{kiss}) we have to choose simple Infrastructure tools for the project, \emph{we don't have to reinvent the wheel}\footnote{Reinventing the wheel - \url{http://en.wikipedia.org/wiki/Reinventing_the_wheel}}.
 
 \begin{itemize}
-	\item Methodology: \emph{Test Driven Development} - TDD. \emph{"If it isn’t tested then it doesn’t work"}. This Agile methodology is perfect to ensure, track, improve and refactor code development process. % TODO image
-	\item Issue \& Project Tracking System - JIRA\footnote{JIRA - \url{http://www.atlassian.com/software/jira/overview}}. JIRA is ITS that records and manage a big amount of information in a project. Is composed by the ITS, Roadmap, Issues Reports, Development Addons, Interoperability between SCM, Discussion, Voting, Changelogs, HowTos, Wikis, Continuous Integration, Developers profiles, ROLES. % TODO image
-	\item DVCS: GitHub\footnote{\url{https://github.com}} and \emph{Branch per Feature Development}\cite{branch-per-feature}. % TODO image
-	\item Continuous Integration: \emph{Travis-CI}\footnote{\url{https://travis-ci.org/}}. Travis-CI gives us easy visibility of project builds and integration as a FLOSS project with GitHub. Travis integration and easy continuous builds results in GitHub Main page and Development Mailing list connection. This Continuous Integration gives more transparency to the project and shows all the process just using the Repository source. % TODO image
+	\item Methodology: \emph{Test Driven Development} - TDD. \emph{"If it isn’t tested then it doesn’t work"}. This Agile methodology is perfect to ensure, track, improve and refactor code development process.
+	\item Issue \& Project Tracking System - JIRA\footnote{JIRA - \url{http://www.atlassian.com/software/jira/overview}}. JIRA is ITS that records and manage a big amount of information in a project. Is composed by the ITS, Roadmap, Issues Reports, Development Addons, Interoperability between SCM, Discussion, Voting, Changelogs, HowTos, Wikis, Continuous Integration, Developers profiles, ROLES. Thus socialize interaction in community and increase cooperation because is easy, remember \emph{comfort}.
+	\item DVCS: GitHub\footnote{\url{https://github.com}} and \emph{Branch per Feature Development}\cite{branch-per-feature}. Branch per feature brings a more collaborative and social development to contributors because they have to interact more social with other contributor due to multiplication of merges by DVCS and branch per feature. Coding becomes more interactive as Github slogan shouts: \textbf{Social Coding}.
+	\item Continuous Integration: \emph{Travis-CI}\footnote{\url{https://travis-ci.org/}}. Travis-CI gives us easy visibility of project builds and integration as a FLOSS project with GitHub. Travis integration and easy continuous builds results in GitHub Main page and Development Mailing list connection. This Continuous Integration gives more transparency to the project and shows all the process just using the Repository source.
 	\item Code Quality: \emph{GreenHouse}. Our project has to be used and integrated with development in a real case to spread with the example.
 	\item Forum: StackOverflow\footnote{StackOverflow - \url{http://stackoverflow.com/}} as our forum. Thus, developers don't have to get another registered user in another network and they are used to StackOverflow environment. We define the tag \emph{greenhouse} and publish documentation related to the project. This network helps us to view users and developers status, badges and statistics.
-	\item Mailing List: Development and general. Two Mailing lists for the project could be necessary as another \emph{"highway"}. ITS acts as Mailing lists too because everyone could subscribe to a bug or feature, vote and discuss. % TODO image
-	\item Repository of Repositories (\emph{RoR}): To spread the work we need to use the facilities that are online for FLOSS projects. RoR is a Tool to generate public statistics from a repository. We choose \emph{ohloh.net}\footnote{ohloh.net - \url{http://www.ohloh.net/}} from \emph{BlackDuck Software}\footnote{BlackDuck Software - \url{http://www.blackducksoftware.com/}} - \emph{Software and Consulting at the Heart of Open Source}. % TODO image
-	 \item Blog - Create a community blog with success cases, developers presentations, company projects, partners and personal blog posts from community members, thus we can create a brand for the community not only code. Include references from other technologies and analysis. And human-personal information about anything, a community is not only the code you write. % TODO image
+	\item Mailing List: Development and general. Two Mailing lists for the project could be necessary as another \emph{"highway"}. ITS acts as Mailing lists too because everyone could subscribe to a bug or feature, vote and discuss. Voting rules must be established and explained easy.
+	\item Repository of Repositories (\emph{RoR}): To spread the work we need to use the facilities that are online for FLOSS projects. RoR is a Tool to generate public statistics from a repository. We choose \emph{ohloh.net}\footnote{ohloh.net - \url{http://www.ohloh.net/}} from \emph{BlackDuck Software}\footnote{BlackDuck Software - \url{http://www.blackducksoftware.com/}} - \emph{Software and Consulting at the Heart of Open Source}. This is another chapter that surrounds \emph{Gamifying} concept and use existing tools to improve community feedback.
+	 \item Blog - Create a community blog with success cases, developers presentations, company projects, partners and personal blog posts from community members, thus we can create a brand for the community not only code. Include references from other technologies and analysis. And human-personal information about anything, a community is not only the code you write. Remember that a blog entry is a marketing tool that could be updated to make a good first impression on a new user to see recent updates on the website.
 	 \item Social Network - Technological Social Networks as identi.ca\footnote{Identi.ca - \url{http://identi.ca/}} and \emph{Twitter}\footnote{Twitter - \url{https://twitter.com/}}. Create a user group to get in touch with users and spread news, community blogs, new versions, roadmap. Instant connection to users and other FLOSS communities around the world, you only need an internet connection and a terminal to use these microblogging sites. We have to move and spread our community using by \emph{others' highways}.
 	 \begin{quotation}
 	    \begin{center}
 	    \emph{"Make a Difference, Not Noise"}
 	    \end{center}
 	 \end{quotation}
-    \item \emph{Virtual Environment Services} - \emph{Blue Box} for deploying FLOSS projects that want to be hosted and Qualified by \emph{GreenHouse}. We need to provide this service to interoperate whit GitHub hooks and provide an easy configuration hooks for other Repositories of Repositories platforms like Bitbucket, GitlabHQ, Gitolite, etc\ldots to spread our functionalities. This investment is very important because gives us visibility and new possible user connections.
+    \item \emph{Virtual Environment Services} - \emph{Blue Box} for deploying FLOSS projects that want to be hosted and Qualified by \emph{GreenHouse}. We need to provide this service to interoperate whit GitHub hooks and provide an easy configuration hooks for other Repositories of Repositories platforms like Bitbucket, GitlabHQ, Gitolite, etc\ldots to spread our functionalities. This investment is very important because gives us visibility and attract new possible users.
 \end{itemize}
 
 % subsection infrastructure (end)
@@ -598,7 +627,12 @@
     Jono Bacon,\\
     The Art of Community,\\
     \url{http://www.artofcommunityonline.org/}
-    
+
+    \bibitem{gamifying}
+    Richard Sands,\\
+    Wins and FLOSSes - A Discussion on Gamifying FLOSS Community Participation,\\    
+    \url{https://fosdem.org/2013/schedule/event/gamifying/}
+
     \bibitem{refactoring}
     Martin Fowler,\\
     Refactoring,\\
